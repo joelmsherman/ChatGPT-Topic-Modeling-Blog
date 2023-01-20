@@ -18,7 +18,7 @@ The initial dataset is prepared by Konrad Banachewicz, updated daily, and availa
 ## Project Methodology
 
 ### Dataset Cleanup, Profiling & EDA
-See [this]() notebook.  The dataset contains 60,504 unique tweets (simple retweets have been removed) referencing the hashtag #ChatGPT from 35,748 different users over the period December 5, 2022 through January 2, 2023.    
+The dataset contains 60,504 unique tweets (simple retweets have been removed) referencing the hashtag #ChatGPT from 35,748 different users over the period December 5, 2022 through January 2, 2023. See [this](https://app.hex.tech/5b266aaf-b343-4ae7-bdea-218e8fe3001f/hex/87ba702b-030a-4821-8ee1-8f7bf0117139/draft/logic) notebook for more details.
 
 ### Tweet Pre-processing, Modeling Training, Assignment and Evaluation
 Talk about
