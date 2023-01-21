@@ -21,12 +21,28 @@ The initial dataset is prepared by Konrad Banachewicz, updated daily, and availa
 The dataset contains 60,504 unique tweets (simple retweets have been removed) referencing the hashtag #ChatGPT from 35,748 different users over the period December 5, 2022 through January 2, 2023. See [this](https://app.hex.tech/5b266aaf-b343-4ae7-bdea-218e8fe3001f/hex/87ba702b-030a-4821-8ee1-8f7bf0117139/draft/logic) notebook for more details.
 
 ### Tweet Pre-processing, Modeling Training, Assignment and Evaluation
-Talk about
-* pycaret
-* evaluating lda models are difficult and often need iterating
+Natural language problems like this one require significant text pre-processing, and a bit of iteration to find the set of topics that appropriately capture those in the corpus.  Luckily, the package [PyCaret](https://pycaret.org/) simplifies this process, turning what would take many lines of code, into just a few lines. 
   
 #### Iteration 1
-See [this]() notebook.
+In the first iteration, no custom stopwords were passed to the pre-processor, and an initial guess at a topic count was set at six topics.  The resulting model contained 32,016 terms spread across the 6 topics.  As would be expected of a model trained with no custom stopwords, many of highest frequency terms added no significant information to the model, such as:
+
+* co
+* ai
+* https,
+* use,
+* chatgpt
+* ask
+* write
+* make
+* get
+* answer
+* question
+* give
+* say
+* would
+
+Further, an analysis of the t-distributed stochastic neighbor embedding (tSNE) plot shows a lot of topic overlap, making it unclear whether a 6 topic model is the appropriate fit.  For more information on iteration 1 training and analysis, see [this]() notebook.
+
 #### Iteration 2
 See [this]() notebook.
 
