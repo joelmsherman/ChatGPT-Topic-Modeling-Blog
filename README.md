@@ -44,7 +44,11 @@ In the first iteration, no custom stopwords were passed to the pre-processor, an
 Further, an analysis of the t-distributed stochastic neighbor embedding (tSNE) plot shows a lot of topic overlap, making it unclear whether a 6 topic model is the appropriate fit.  For more information on iteration 1 training and analysis, see [this](https://github.com/joelmsherman/ChatGPT-Topic-Modeling/blob/master/Notebooks/Iteration1.ipynb) notebook.
 
 #### Iteration 2
-See [this]() notebook.
+In the second iteration, terms (above) that were identified in the first iteration that did not yield significant information in the model were removed as custom stopwords, and the model was retrained.  Five, rather than 6 topics was initially asserted.  The frequency distribution of the corpus did firm up a bit, with the dominant words being "good", "think", "go", "know", "new", "try", "see", "create", "time" and "work". 
+
+![title](Images/Iter2_corpus.png)
+
+However, model tuning with coherence yielded a 400-topic model, suggesting that tweets really span a wide-ranging set of topics, many more than the handful asserted.  This makes sense, given the fact that people may have and talk about a vast array of use cases for ChatGPT!  See [this](https://github.com/joelmsherman/ChatGPT-Topic-Modeling/blob/master/Notebooks/Iteration2.ipynb) notebook for more information on this iteration.
 
 ### Deploying Assigned Model to a Power BI application
 See application [here]()
