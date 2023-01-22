@@ -41,7 +41,7 @@ In the first iteration, no custom stopwords were passed to the pre-processor, an
 * say
 * would
 
-Further, an analysis of the t-distributed stochastic neighbor embedding (tSNE) plot shows a lot of topic overlap, making it unclear whether a 6 topic model is the appropriate fit.  For more information on iteration 1 training and analysis, see [this]() notebook.
+Further, an analysis of the t-distributed stochastic neighbor embedding (tSNE) plot shows a lot of topic overlap, making it unclear whether a 6 topic model is the appropriate fit.  For more information on iteration 1 training and analysis, see [this](https://github.com/joelmsherman/ChatGPT-Topic-Modeling/blob/master/Notebooks/Iteration1.ipynb) notebook.
 
 #### Iteration 2
 See [this]() notebook.
