@@ -51,4 +51,4 @@ In the second iteration, terms (above) that were identified in the first iterati
 However, model tuning with coherence yielded a 400-topic model, suggesting that tweets really span a wide-ranging set of topics, many more than the handful asserted.  This makes sense, given the fact that people may have and talk about a vast array of use cases for ChatGPT!  See [this](https://github.com/joelmsherman/ChatGPT-Topic-Modeling/blob/master/Notebooks/Iteration2.ipynb) notebook for more information on this iteration.
 
 ### Deploying Assigned Model to a Power BI application
-See application [here]()
+The model was productionalized in Power BI to facilitate exploration.  The application is available [here](https://app.powerbi.com/view?r=eyJrIjoiZWVkNGVjYzItZDhmNS00MjJlLWE3YWEtZGM2MjkxYjk1YmEyIiwidCI6IjEwMmY4MzcyLTBlMWUtNDFhMy04ZWU4LTZhOTQ5NzAyZjcxNCJ9)
