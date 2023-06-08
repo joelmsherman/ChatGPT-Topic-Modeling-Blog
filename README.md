@@ -1,6 +1,6 @@
 # Topic Modeling #ChatGPT Tweets with a Latent Dirichlet Allocation NLP Model
 
-[![Robot Sifting through Tweets, by DALL-E]](https://github.com/joelmsherman/ChatGPT-Topic-Modeling/blob/master/Images/RobotTweetFinding_DALL-E.png)
+[![Robot Sifting through Tweets, by DALL-E]](https://github.com/joelmsherman/ChatGPT-Topic-Modeling/blob/5eb8f71d9c058dc928ea2207d89dd11c41f878a9/Images/RobotTweetFinding_DALL-E.png)
 
 ## Project Overview
 ChatGPT has been taking the world by storm, and if you haven't heard of it yet, you will soon.  A type of Generative Pre-trained Transformer (GPT), ChatGPT is a language model trained to generate human-like text by predicting the next word in a sequence of words.
